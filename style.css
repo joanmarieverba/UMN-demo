@@ -44,12 +44,6 @@ body {
   }
 }
 
-.leading-text {
-  max-width: 900px;
-  font-size: 1.2em;
-  line-height: 1.4em;
-}
-
 .cards {
   max-width: 960px;
   margin: 0 auto 30px;

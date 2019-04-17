@@ -53,6 +53,12 @@ article {
   position: relative;
 }
 
+.btn {
+  width: 70px;
+  height: 30px;
+  margin-right: 10vw;
+}
+
 .picture {
   height: 200px;
   width: 100%;
@@ -85,4 +91,8 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 2vh;
+}
+
+.vmargin {
+  margin-bottom: 5vh;
 }

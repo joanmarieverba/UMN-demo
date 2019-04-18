@@ -1,0 +1,12 @@
+$colors: (
+    bg-color: #f0ffff,
+    text-color: #ffffff
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+body {
+    background-color: color(bg-color);
+}

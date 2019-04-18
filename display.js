@@ -9,26 +9,14 @@ $(document).ready(function () {
 
 //reverse the order
 
-//reference image container
-const imgContainer = $('#container');
-
-//reference reverse button
-const reverseButton = $('.reverse');
-
-//search container, add images to array
-let images = $(imgContainer).find('img');
-
-//check the images array
-console.log('images: ', images);
-
-//handle the click
 $(document).ready(function () {
     $(".reverse").click(function () {
-        $("#container").empty;
-        images.forEach(function (index) {
-            console.log (index)
-        });
-
+        $("#img1").attr('src', "images/cat6.jpg");
+        $("#img2").attr('src', "images/cat5.jpg");
+        $("#img3").attr('src', "images/cat4.jpg");
+        $("#img4").attr('src', "images/cat3.png");
+        $("#img5").attr('src', "images/cat2.png");
+        $("#img6").attr('src', "images/cat.png");
     });
 });
 

@@ -20,5 +20,5 @@ $(document).ready(function () {
     });
 });
 
-//note: yes, I know I should have used arr.reverse() and forEach above
-//for some reason I cannot fathom, my system was throwing errors when I used them
+//note: yes, I know the above could have been more elegantly written
+//for some reason I cannot fathom, my system was throwing errors when I made the attempt
